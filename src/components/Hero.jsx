@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import redbigshoe from "../assets/images/svg/redbigshoe.svg";
 import yellowstart from "../assets/images/svg/yellowstart.svg";
@@ -17,51 +17,61 @@ import redp from "../assets/images/svg/redp.svg";
 import google from "../assets/images/svg/google.svg";
 
 const Hero = () => {
+  const [first, setfirst] = useState(0);
   return (
     <section className="mt-lg-5 ">
       <Container className="pt-4">
         <Row className="align-items-center">
-          <Col lg={6}>
-            <div>
+          <Col lg={6} md={11} className="m-lg-0 m-auto">
+            <div className={first === 0 ? "d-block" : "d-none"}>
               <img className="w-100" src={redbigshoe} alt="redbigshoe" />
             </div>
+            <div className={first === 1 ? "d-block" : "d-none"}>
+              <img className="w-100" src={shoe1} alt="shoe1" />
+            </div>
+            <div className={first === 2 ? "d-block" : "d-none"}>
+              <img className="w-100" src={shoe3} alt="shoe1" />
+            </div>
+            <div className={first === 3 ? "d-block" : "d-none"}>
+              <img className="w-100" src={shoe4} alt="shoe1" />
+            </div>
             <div className="">
-              <div className="mt-4 d-flex overflow_x_scroll">
+              <div className="mt-4 d-flex overflow_x_scroll example">
                 <Col className="ms-3">
-                  <div>
+                  <a href="#">
                     <img
                       className="w-100 min-wid-137"
                       src={shoe1}
                       alt="shoe1"
                     />
-                  </div>
+                  </a>
                 </Col>
                 <Col className="ms-3">
-                  <div>
+                  <a href="#">
                     <img
                       className="w-100 min-wid-137"
                       src={shoe2}
                       alt="shoe2"
                     />
-                  </div>
+                  </a>
                 </Col>
                 <Col className="ms-3">
-                  <div>
+                  <a href="#">
                     <img
                       className="w-100 min-wid-137"
                       src={shoe3}
                       alt="shoe3"
                     />
-                  </div>
+                  </a>
                 </Col>
                 <Col className="ms-3">
-                  <div>
+                  <a href="#">
                     <img
-                      className="w-100 min-wid-137"
+                      className="w-100 min-wid-137 h_103 "
                       src={shoe4}
                       alt="shoe4"
                     />
-                  </div>
+                  </a>
                 </Col>
               </div>
             </div>
@@ -72,21 +82,21 @@ const Hero = () => {
                 PREMIUM MENS SPORTS LATHER KEDS
               </h1>
               <div className="d-flex align-items center">
-                <div>
+                <a href="#">
                   <img src={yellowstart} alt="yellowstart" />
-                </div>
-                <div className="ms-1">
+                </a>
+                <a href="#" className="ms-1">
                   <img src={yellowstart} alt="yellowstart" />
-                </div>
-                <div className="ms-1">
+                </a>
+                <a href="#" className="ms-1">
                   <img src={yellowstart} alt="yellowstart" />
-                </div>
-                <div className="ms-1">
+                </a>
+                <a href="#" className="ms-1">
                   <img src={yellowstart} alt="yellowstart" />
-                </div>
-                <div className="ms-1">
+                </a>
+                <a href="#" className="ms-1">
                   <img src={yellowstart} alt="yellowstart" />
-                </div>
+                </a>
                 <p className="ff_poppins fw_400 clr_lightestgrey fs_lg ps-2">
                   ( 5 Customer Review )
                 </p>
@@ -110,7 +120,7 @@ const Hero = () => {
                     <img src={plus} alt="plus" />
                   </a>
                 </div>
-                <button className="bg_green green_brdr ff_poppins fw_500 fs_lg clr_white py-2 px-4 radius_50 ms-3">
+                <button className="bg_green green_brdr ff_poppins fw_500 fs_lg clr_white py-2 px-4 radius_50 ms-3 cart_btn_hover">
                   Add to Cart
                 </button>
               </div>
@@ -128,23 +138,45 @@ const Hero = () => {
                 <p className="ff_poppins fw_500 fs_lg clr_black mb-0">Color:</p>
                 <div className="d-flex ms-4">
                   <div className="brdr_box d-flex flex-column justify-content-center align-items-center">
-                    <div className="red_box"></div>
+                    <div
+                      onClick={() => {
+                        setfirst(0);
+                      }}
+                      className="red_box"
+                    ></div>
                   </div>
                   <div className="brdr_box d-flex flex-column justify-content-center align-items-center ms-2">
-                    <div className="cream_box"></div>
+                    <div
+                      onClick={() => {
+                        setfirst(3);
+                      }}
+                      className="cream_box"
+                    ></div>
                   </div>
                   <div className="brdr_box d-flex flex-column justify-content-center align-items-center ms-2">
-                    <div className="black_box"></div>
+                    <div
+                      onClick={() => {
+                        setfirst(1);
+                      }}
+                      className="black_box"
+                    ></div>
                   </div>
                   <div className="brdr_box d-flex flex-column justify-content-center align-items-center ms-2">
-                    <div className="gray_box"></div>
+                    <div
+                      onClick={() => {
+                        setfirst(2);
+                      }}
+                      className="gray_box"
+                    ></div>
                   </div>
                 </div>
               </div>
               <div className="d-flex mt-4">
                 <div className="d-flex">
                   <div>
-                    <img src={symbol1} alt="symbol1" />
+                    <a href="#">
+                      <img src={symbol1} alt="symbol1" />
+                    </a>
                   </div>
                   <p className="mb-0 ps-1">
                     <a
@@ -157,7 +189,9 @@ const Hero = () => {
                 </div>
                 <div className="d-flex ms-4">
                   <div>
-                    <img src={heart} alt="heart" />
+                    <a href="#">
+                      <img src={heart} alt="heart" />
+                    </a>
                   </div>
                   <p className="mb-0 ps-1">
                     <a
@@ -170,22 +204,35 @@ const Hero = () => {
                 </div>
               </div>
               <div className="gray_line mt-4"></div>
-              <div className="mt-4">
+              <div className="mt-4 d-flex">
                 <a href="#">
-                  <img src={share} alt="share" />
+                  <img className="transform_hover" src={share} alt="share" />
                 </a>
-                <a className="ms-4" href="#">
-                  <img src={fb} alt="fb" />
-                </a>
-                <a className="ms-4" href="#">
-                  <img src={twit} alt="twit" />
-                </a>
-                <a className="ms-4" href="#">
-                  <img src={redp} alt="redp" />
-                </a>
-                <a className="ms-4" href="#">
-                  <img src={google} alt="google" />
-                </a>
+
+                <div>
+                  <a className="ms-4" href="#">
+                    <img className="transform_hover" src={fb} alt="fb" />
+                  </a>
+                </div>
+                <div>
+                  <a className="ms-4" href="#">
+                    <img className="transform_hover" src={twit} alt="twit" />
+                  </a>
+                </div>
+                <div>
+                  <a className="ms-4" href="#">
+                    <img className="transform_hover" src={redp} alt="redp" />
+                  </a>
+                </div>
+                <div>
+                  <a className="ms-4" href="#">
+                    <img
+                      className="transform_hover"
+                      src={google}
+                      alt="google"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </Col>

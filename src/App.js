@@ -8,6 +8,7 @@ import Cards from "./components/Cards";
 import Discription from "./components/Discription";
 import Products from "./components/Products";
 import Footer from "./components/Footer";
+import CopyRight from "./components/CopyRight";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Discription />
       <Products />
       <Footer />
+      <CopyRight />
     </>
   );
 }

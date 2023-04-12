@@ -11,7 +11,7 @@ const Cards = () => {
           You can buy the Nike Air Max 97 Men's Shoe - White here:
         </h1>
         <Row className="mt-5">
-          <Col xl={3} lg={4} md={6} className="hover_card">
+          <Col xl={3} lg={4} md={6} className="hover_card curser_pointer">
             <div className="bg_white pb-4 scale">
               <div className="gray_border py-4 px-3">
                 <img className="w-100" src={footlock} alt="footlock" />
@@ -34,45 +34,63 @@ const Cards = () => {
               </p>
               <Row className="mt-2 px-3">
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       41
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       42
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       43
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       44
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       45
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       46
-                    </p>
+                    </a>
                   </div>
                 </Col>
               </Row>
@@ -84,7 +102,12 @@ const Cards = () => {
               </p>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={6} className="hover_card mt-md-0 mt-4">
+          <Col
+            xl={3}
+            lg={4}
+            md={6}
+            className="hover_card mt-md-0 mt-4 curser_pointer"
+          >
             <div className="bg_white pb-4 scale">
               <div className="gray_border py-4 px-3">
                 <img className="w-100" src={sidestep} alt="sidestep" />
@@ -107,45 +130,63 @@ const Cards = () => {
               </p>
               <Row className="mt-2 px-3">
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       41
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       42
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       43
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       44
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       45
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       46
-                    </p>
+                    </a>
                   </div>
                 </Col>
               </Row>
@@ -157,7 +198,12 @@ const Cards = () => {
               </p>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={6} className="hover_card mt-lg-0 mt-4">
+          <Col
+            xl={3}
+            lg={4}
+            md={6}
+            className="hover_card mt-lg-0 mt-4 curser_pointer"
+          >
             <div className="bg_white pb-4 scale">
               <div className="gray_border py-4 px-3">
                 <img className="w-100" src={footlock} alt="footlock" />
@@ -180,45 +226,63 @@ const Cards = () => {
               </p>
               <Row className="mt-2 px-3">
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       41
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       42
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       43
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       44
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       45
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       46
-                    </p>
+                    </a>
                   </div>
                 </Col>
               </Row>
@@ -230,7 +294,12 @@ const Cards = () => {
               </p>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={6} className="hover_card mt-xl-0 mt-4">
+          <Col
+            xl={3}
+            lg={4}
+            md={6}
+            className="hover_card mt-xl-0 mt-4 curser_pointer"
+          >
             <div className="bg_white pb-4 scale">
               <div className="gray_border py-4 px-3">
                 <img className="w-100" src={sidestep} alt="footlock" />
@@ -253,45 +322,63 @@ const Cards = () => {
               </p>
               <Row className="mt-2 px-3">
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       41
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       42
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4}>
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       43
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0"
+                    >
                       44
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href=""
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       45
-                    </p>
+                    </a>
                   </div>
                 </Col>
                 <Col xs={4} className="mt-4">
-                  <div className="gray_border2 radius_50">
-                    <p className="ff_poppins fw_500 fs_xsm color_black mb-0 text-center py-2">
+                  <div className="gray_border2 radius_50 text-center py-1">
+                    <a
+                      href="#"
+                      className="ff_poppins fw_500 fs_xsm clr_black mb-0 "
+                    >
                       46
-                    </p>
+                    </a>
                   </div>
                 </Col>
               </Row>

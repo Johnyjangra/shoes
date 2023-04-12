@@ -10,7 +10,7 @@ const Nav = () => {
       <Container>
         <div className="d-flex justify-content-between align-items-center py-3">
           <div>
-            <img src={logo} alt="logo" />
+            <img className="w_xsm_80" src={logo} alt="logo" />
           </div>
           <div className="ms-lg-0 ms-3 me-sm-0 me-3  d-sm-block d-none">
             <img className="w-100" src={define} alt="define" />
@@ -53,7 +53,7 @@ const Nav = () => {
                 HOME
               </a>
             </li>
-            <li className="ms-3">
+            <li className="ms-3 mt-lg-0 mt-3">
               <a
                 className="ff_roboto fw_400 fs_md clr_black hover_bold"
                 href="#"
@@ -61,7 +61,7 @@ const Nav = () => {
                 SNEAKERS KOPEN
               </a>
             </li>
-            <li className="ms-3">
+            <li className="ms-3 mt-lg-0 mt-3">
               <a
                 className="ff_roboto fw_400 fs_md clr_black hover_bold"
                 href="#"
@@ -69,7 +69,7 @@ const Nav = () => {
                 INTERVIEWS
               </a>
             </li>
-            <li className="ms-3">
+            <li className="ms-3 mt-lg-0 mt-3">
               <a
                 className="ff_roboto fw_400 fs_md clr_black hover_bold"
                 href="#"
@@ -77,7 +77,7 @@ const Nav = () => {
                 SALE
               </a>
             </li>
-            <li className="ms-3">
+            <li className="ms-3 mt-lg-0 mt-3">
               <a
                 className="ff_roboto fw_400 fs_md clr_black hover_bold"
                 href="#"
@@ -85,7 +85,7 @@ const Nav = () => {
                 SNEAKER VAN DE DAG
               </a>
             </li>
-            <li className="ms-3">
+            <li className="ms-3 mt-lg-0 mt-3">
               <a
                 className="ff_roboto fw_400 fs_md clr_black hover_bold"
                 href="#"
@@ -93,7 +93,7 @@ const Nav = () => {
                 SNEAKER FORUM
               </a>
             </li>
-            <li className="ms-3">
+            <li className="ms-3 mt-lg-0 mt-3">
               <a
                 className="ff_roboto fw_400 fs_md clr_black hover_bold"
                 href="#"

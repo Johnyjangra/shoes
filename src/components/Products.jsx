@@ -24,8 +24,8 @@ const Products = () => {
         <h1 className="ff_poppins fw_600 fs_3xl clr_black">RELATED PRODUCT</h1>
 
         <Row className="mt-5">
-          <Col xl={3} lg={4} md={4} sm={6}>
-            <div className="card_bg pb-3">
+          <Col xl={3} lg={4} md={4} sm={6} className="">
+            <div className="card_bg pb-3 curser_pointer card_hover">
               <div className="position-relative">
                 <img className="w-100" src={redshoecard} alt="redshoecard" />
                 <div className="position-absolute top_14 left_14">
@@ -64,8 +64,14 @@ const Products = () => {
               </div>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={4} sm={6} className="mt-sm-0 mt-4">
-            <div className="card_bg pb-3">
+          <Col
+            xl={3}
+            lg={4}
+            md={4}
+            sm={6}
+            className="mt-sm-0 mt-4 curser_pointer"
+          >
+            <div className="card_bg pb-3 card_hover">
               <div className="position-relative">
                 <img className="w-100" src={grayshoecard} alt="grayshoecard" />
                 <div className="position-absolute top_14 left_14">
@@ -104,8 +110,14 @@ const Products = () => {
               </div>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={4} sm={6} className="mt-md-0 mt-4">
-            <div className="card_bg pb-3">
+          <Col
+            xl={3}
+            lg={4}
+            md={4}
+            sm={6}
+            className="mt-md-0 mt-4 curser_pointer"
+          >
+            <div className="card_bg pb-3 card_hover">
               <div className="position-relative">
                 <img className="w-100" src={redshoecard} alt="redshoecard" />
                 <div className="position-absolute top_14 left_14">
@@ -144,8 +156,14 @@ const Products = () => {
               </div>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={4} sm={6} className="mt-xl-0 mt-4">
-            <div className="card_bg pb-3">
+          <Col
+            xl={3}
+            lg={4}
+            md={4}
+            sm={6}
+            className="mt-xl-0 mt-4 curser_pointer"
+          >
+            <div className="card_bg pb-3 card_hover">
               <div className="position-relative">
                 <img className="w-100" src={grayshoecard} alt="grayshoecard" />
                 <div className="position-absolute top_14 left_14">
@@ -184,8 +202,8 @@ const Products = () => {
               </div>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={4} sm={6} className="mt-4">
-            <div className="card_bg pb-3">
+          <Col xl={3} lg={4} md={4} sm={6} className="mt-4 curser_pointer">
+            <div className="card_bg pb-3 card_hover">
               <div className="position-relative">
                 <img className="w-100" src={redshoecard} alt="redshoecard" />
                 <div className="position-absolute top_14 left_14">
@@ -224,8 +242,8 @@ const Products = () => {
               </div>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={4} sm={6} className="mt-4">
-            <div className="card_bg pb-3">
+          <Col xl={3} lg={4} md={4} sm={6} className="mt-4 curser_pointer">
+            <div className="card_bg pb-3 card_hover">
               <div className="position-relative">
                 <img className="w-100" src={grayshoecard} alt="grayshoecard" />
                 <div className="position-absolute top_14 left_14">
@@ -264,8 +282,8 @@ const Products = () => {
               </div>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={4} sm={6} className="mt-4">
-            <div className="card_bg pb-3">
+          <Col xl={3} lg={4} md={4} sm={6} className="mt-4 curser_pointer">
+            <div className="card_bg pb-3 card_hover">
               <div className="position-relative">
                 <img className="w-100" src={redshoecard} alt="redshoecard" />
                 <div className="position-absolute top_14 left_14">
@@ -304,8 +322,8 @@ const Products = () => {
               </div>
             </div>
           </Col>
-          <Col xl={3} lg={4} md={4} sm={6} className="mt-4">
-            <div className="card_bg pb-3">
+          <Col xl={3} lg={4} md={4} sm={6} className="mt-4 curser_pointer">
+            <div className="card_bg pb-3 card_hover">
               <div className="position-relative">
                 <img className="w-100" src={grayshoecard} alt="grayshoecard" />
                 <div className="position-absolute top_14 left_14">
@@ -346,26 +364,36 @@ const Products = () => {
           </Col>
         </Row>
 
-        <div className="d-flex align-items-center justify-content-end mt-4">
+        <div className="d-flex align-items-center justify-content-end my-5">
           <div className="btn1 btv_red_hovr">
-            <p className="ff_poppins fw_600 fs_xl clr_black mb-0 d-flex flex-column align-items-center justify-content-center h-100 hover_clr_white">
+            <a
+              href=""
+              className="ff_poppins fw_600 fs_xl clr_black mb-0 d-flex flex-column align-items-center justify-content-center h-100 hover_clr_white"
+            >
               1
-            </p>
+            </a>
           </div>
           <div className="btn1 ms-4 btv_red_hovr">
-            <p className="ff_poppins fw_600 fs_xl clr_black mb-0 d-flex flex-column align-items-center justify-content-center h-100 hover_clr_white">
+            <a
+              href="#"
+              className="ff_poppins fw_600 fs_xl clr_black mb-0 d-flex flex-column align-items-center justify-content-center h-100 hover_clr_white"
+            >
               2
-            </p>
+            </a>
           </div>
           <div className="btn1 ms-4 btv_red_hovr">
-            <p className="ff_poppins fw_600 fs_xl clr_black mb-0 d-flex flex-column align-items-center justify-content-center h-100 hover_clr_white">
+            <a
+              href=""
+              className="ff_poppins fw_600 fs_xl clr_black mb-0 d-flex flex-column align-items-center justify-content-center h-100 hover_clr_white"
+            >
               3
-            </p>
+            </a>
           </div>
           <div className="next_btn py-2 px-3  ms-4">
             <p className=" mb-0 d-flex flex-column align-items-center justify-content-center h-100">
               <a className="ff_poppins fw_400 fs_xsm clr_lightestgrey" href="#">
-                Next
+                Next <span>&#62;</span>
+                <span>&#62;</span>
               </a>
             </p>
           </div>

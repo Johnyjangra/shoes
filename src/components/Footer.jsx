@@ -9,26 +9,40 @@ const Footer = () => {
   return (
     <footer className="bg_black py-5">
       <Container>
-        <Row>
-          <Col lg={5}>
+        <Row className="justify-content-between">
+          <Col lg={4}>
             <div className="text-lg-start text-center">
-              <div>
+              <a href="">
                 <img src={footerlogo} alt="footerlogo" />
-              </div>
+              </a>
               <p className="ff_poppins fw_400 fs_xsm clr_lightwhite ">
                 Sed nec ultricies felis, vitae facilisis ipsum. Morbi id turpis
                 euismod, rhoncus tortor quis, lobortis sapien. Sed imperdiet
                 nulla in leo ullamcorper, in finibus elit porta.{" "}
               </p>
               <div className="mt-5">
-                <img src={footfb} alt="footfb" />
-                <img className="ms-4" src={foottwit} alt="foottwit" />
-                <img className="ms-4" src={footgoogle} alt="footgoogle" />
+                <a href="#">
+                  <img className="transform_hover" src={footfb} alt="footfb" />
+                </a>
+                <a href="#">
+                  <img
+                    className="ms-4 transform_hover"
+                    src={foottwit}
+                    alt="foottwit"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    className="ms-4 transform_hover"
+                    src={footgoogle}
+                    alt="footgoogle"
+                  />
+                </a>
               </div>
             </div>
           </Col>
-          <Col lg={7}>
-            <Row className="mt-lg-0 mt-4">
+          <Col lg={7} className="pt-lg-5">
+            <Row className="mt-lg-0 mt-4 pt-5">
               <Col md={3} sm={4} xs={6}>
                 <div className="text-lg-start text-center">
                   <p className="ff_poppins fw_600 fs_sm clr_white">
@@ -37,7 +51,7 @@ const Footer = () => {
                   <ul className="ps-0 mb-0">
                     <li className="pt-3">
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
@@ -46,7 +60,7 @@ const Footer = () => {
                     <li className="pt-3">
                       {" "}
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
@@ -63,7 +77,7 @@ const Footer = () => {
                   <ul className="ps-0 mb-0">
                     <li className="pt-3">
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
@@ -72,7 +86,7 @@ const Footer = () => {
                     <li className="pt-3">
                       {" "}
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
@@ -80,7 +94,7 @@ const Footer = () => {
                     </li>
                     <li className="pt-3">
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
@@ -97,7 +111,7 @@ const Footer = () => {
                   <ul className="ps-0 mb-0">
                     <li className="pt-3">
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
@@ -105,7 +119,7 @@ const Footer = () => {
                     </li>
                     <li className="pt-3">
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
@@ -122,7 +136,7 @@ const Footer = () => {
                   <ul className="ps-0 mb-0">
                     <li className="pt-3">
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
@@ -130,7 +144,7 @@ const Footer = () => {
                     </li>
                     <li className="pt-3">
                       <a
-                        className="ff_poppins fw_400 fs_sm clr_lightwhite"
+                        className="ff_poppins fw_400 fs_sm clr_lightwhite clr_white_hover"
                         href="#"
                       >
                         Lorem ipsum
